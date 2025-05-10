@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
 import { GitLabUser, GitLabConfig } from '../services/gitlab';
 import { fetchProjectUsers } from '../services/gitlab';
+import { useState, useEffect, useRef } from 'react';
 
 interface UserSelectProps {
   config: GitLabConfig;
@@ -17,7 +17,6 @@ export default function UserSelect({
   projectId,
   onUserChange,
   placeholder = '选择用户',
-  type,
   isOpen: propIsOpen,
   onDropdownToggle
 }: UserSelectProps) {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import Settings from './components/Settings';
 import IssueList from './components/IssueList';
 import ProjectSelect from './components/ProjectSelect';

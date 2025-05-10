@@ -1,4 +1,3 @@
-import React from 'react';
 import { GitLabIssue, PaginationInfo } from '../services/gitlab';
 
 interface IssueListProps {

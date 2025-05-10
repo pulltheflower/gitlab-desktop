@@ -11,13 +11,7 @@
     "version": "0.1.0"
   },
   "tauri": {
-    "allowlist": {
-      "all": false,
-      "shell": {
-        "all": false,
-        "open": true
-      }
-    },
+    "allowlist": { "all": false, "shell": { "all": false, "open": true }, "protocol": { "all": true } },
     "bundle": {
       "active": true,
       "category": "DeveloperTool",
@@ -51,9 +45,7 @@
         "timestampUrl": ""
       }
     },
-    "security": {
-      "csp": null
-    },
+    "security": { "csp": null },
     "updater": {
       "active": false
     },

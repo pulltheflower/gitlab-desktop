@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { GitLabProject, GitLabConfig } from '../services/gitlab';
 import { fetchProjects } from '../services/gitlab';
 
@@ -14,7 +14,7 @@ interface ProjectSelectProps {
 export default function ProjectSelect({ 
   config, 
   onProjectChange,
-  selectedProjectId,
+  // Removed unused selectedProjectId
   onProjectSelect,
   isOpen: propIsOpen,
   onDropdownToggle 
